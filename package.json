@@ -1,0 +1,16 @@
+{
+  "name": "typescript-base",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node-dev --transpile-only ./src/index.ts",
+    "build": "rimraf ./dist && tsc"
+  },
+  "dependencies": {
+    "@types/node": "^18.16.0",
+    "rimraf": "^5.0.0",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.0.4"
+  }
+}
